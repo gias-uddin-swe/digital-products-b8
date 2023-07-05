@@ -6,3 +6,25 @@
     color: blue;
     cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/sad.png"),auto;
 }
+.box{
+    padding: 20px;
+    background-color:red;
+    width:110px;
+    height:110px;
+}
+.box2{
+    background-color:green;
+}
+.box3{
+    background-color:blue;
+}
+
+
+
+.container{
+    display: flex;
+    height: 500px;
+    border: 1px solid gray;
+    justify-content:space-around;
+    align-items: center;
+}
