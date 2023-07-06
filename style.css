@@ -125,3 +125,13 @@
     height: 500px;
 }
 
+footer {
+    background-color: rgb(44, 3, 3);
+    height: 550px;
+    color: white;
+}
+
+.logo-pic, .logo-p {
+    width: 200px;
+    padding: 15px;
+}
