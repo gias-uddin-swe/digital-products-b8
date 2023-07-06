@@ -125,10 +125,20 @@
     height: 500px;
 }
 
-footer {
-    background-color: rgb(44, 3, 3);
-    height: 550px;
+/* footer {
+    background-color: rgb(25, 18, 18);
+    height: 400px;
     color: white;
+} */
+
+footer {
+    width: 100%;
+    height: 70vh;
+    background-image: url(./asset/image/footer-bg.png),linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    color: white;
+    line-height: 1.8em;
 }
 
 .logo-pic, .logo-p {
@@ -157,3 +167,12 @@ footer {
     margin-left: 30px;
     padding: 10px;
 }
+
+.copyright, small {
+    text-align: center;
+}
+
+/* .hr, hr {
+    height: 1rem solid white;
+    width: 70%;
+} */
