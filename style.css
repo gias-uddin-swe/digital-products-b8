@@ -135,3 +135,25 @@ footer {
     width: 200px;
     padding: 15px;
 }
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot-text {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.pera {
+    margin-left: 15px;
+    padding: 15px;
+}
+
+.links, .support, .contact {
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 10px;
+}
