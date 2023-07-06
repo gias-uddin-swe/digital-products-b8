@@ -18,14 +18,21 @@
 .logo-photo{
     width: 120px;
 }
-.item{
+
+.item, a:hover{
+    color: rgb(107, 40, 207);
+    border: 1px solid rgb(92, 58, 215);
+    padding: 5px;
+}
+
+.item, a{
     margin-right: 10px;
     padding-right: 7px;
     font-size: 18px;
     cursor: pointer;
-}
-.item:hover{
-    color: blue;
+    text-decoration: none;
+    color: white;
+    border: none;
 }
 
 .banner-img{
@@ -54,6 +61,12 @@
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+.btn:hover {
+    background-color: rgb(46, 12, 12);
+    color: rgb(105, 70, 208);
+}
+
 .btn{
     padding:10px 20px;
     background-color:red;
@@ -74,20 +87,21 @@
     padding-top:20px;
 }
 .box{
-    width: 230px;
-    height: 280px;
-    box-shadow: 4px 4px 15px gray;
-    background-color: black;
-    text-align: center;
+    width: 200px;
+    height: 304px;
+    /* border: 1px solid gray; */
     padding: 15px;
+    text-align: center;
+    box-shadow: 4px 2px 105px gray;
+    border-radius: 10px;
     color: white;
 }
 .icon{
     width: 70px;
 }
 .box-btn{
-    background-color: gray;
-    margin-top:10px;
+    background-color: rgb(64, 13, 13);
+    margin-top: 8px;
 }
 .box-title{
     padding: 10px;
@@ -101,3 +115,13 @@
     justify-content:space-around;
     padding: 20px;
 }
+
+.service-sec {
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 500px;
+}
+
