@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    
+    <title>Digital Products - by Munna</title>
+    
+    <link rel="shortcut icon" href="./icon/fav.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -16,16 +19,29 @@
             <img class="logo-photo" src="./logo/logo-light.png" alt="" />
           </div>
           <div class="menus">
-            <li class="item">home-1</li>
-            <li class="item">home-2</li>
-            <li class="item">home-3</li>
-            <li class="item">home-4</li>
+            
+            <li class="item">
+              <a href="#home">Home</a>
+            </li>
+            
+            <li class="item">
+              <a href="#about">About US</a>
+            </li>
+
+            <li class="item">
+              <a href="#services">Services</a>
+            </li>
+
+            <li class="item">
+              <a href="#contact">Contact</a>
+            </li>
+
           </div>
         </div>
       </nav>
     </header>
     <main>
-      <section>
+      <section id="home">
         <div class="banner-container">
           <div class="banner-text">
             <h1 class="title">
@@ -46,13 +62,14 @@
       </section>
 
       <!-- this is about us section -->
-      <section>
+
+      <section class="about-sec" id="about">
         <h1 class="title about-title">About US</h1>
         <div class="about-container">
           <div class="about-info">
-            <h1>We grow brands through bold & strategic creative</h1>
+            <h1>We grow brands through bold & strategic creative</h1> <br>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p> <br>
             <button class="btn">contact us</button>
           </div>
           <div class="about-photo">
@@ -62,7 +79,8 @@
       </section>
 
       <!-- service section start from here  -->
-      <section>
+
+      <section class="service-sec" id="services">
         <h1 class="title about-title">Our Services</h1>
         <div class="service-container">
           <div class="box">
@@ -99,6 +117,81 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    
+    <!-- Footer section starts from here -->
+
+    <footer>
+      <section id="contact" class="footer-container">
+        <div class="foot-logo">
+          <div class="logo-pic">
+            <img class="logo-p" src="./logo/logo-light.png" alt="logo">
+          </div>
+
+          <div class="pera">
+            <p>
+              Auctor blandit dolorem primis eius <br>
+              odit soluta molestie? Malesuada <br>
+              elementum aut doloremque labo. <br>
+            </p>
+          </div>
+        </div>
+
+        <div class="foot-text">
+          <div class="links">
+            <h3>Useful Links</h3> <br>
+            <p>About us <br>
+  
+              Careers <br>
+    
+              News & Artciles <br>
+    
+              legal Notice <br>
+            </p>
+          </div>
+  
+          <div class="support">
+            <h3>Supports</h3> <br>
+            <p>
+              Help Center <br>
+              
+              Contact Us <br>
+              
+              FAQ <br>
+              
+              Parent Community <br>
+            </p>
+          </div>
+  
+          <div class="contact">
+            <h3>Contact Information</h3> <br>
+            <p>
+              Feel free to contact & reach us !! <br>
+  
+              3557 Derek Drive, Orlando, Florida <br>
+  
+              +1(456)657-887 <br>
+  
+              info@domain.com <br>
+            </p>
+          </div>  
+        </div>
+      </section>
+
+      <!-- section end -->
+
+      <!-- horizontal line -->
+      <br> <br>
+      <!-- <hr class="hr"/> -->
+      <hr style="margin: 0 auto; width: 80%; height: 1px; color: white">
+      <br>
+
+      <!-- copyright text -->
+      <p class="copyright">
+        <small>Copyright © 2022 Agence. All rights reserved.</small>
+      </p>
+    </footer>
+
+    <!-- Footer end -->
+
   </body>
 </html>
