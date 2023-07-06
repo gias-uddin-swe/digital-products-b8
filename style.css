@@ -1,79 +1,88 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-.menu-container{
+.menu-container {
     background-color: rgb(32, 32, 32);
     padding: 20px;
     color: white;
     list-style: none;
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
 }
-.menus{
+
+.menus {
     display: flex;
 }
-.logo-photo{
+
+.logo-photo {
     width: 120px;
 }
-.item{
+
+.item {
     margin-right: 10px;
     padding-right: 7px;
-    font-size: 18px;
+    font-size: 20px;
     cursor: pointer;
 }
-.item:hover{
+
+.item:hover {
     color: blue;
 }
 
-.banner-img{
+.banner-img {
     width: 300px;
 }
-.banner-container{
+
+.banner-container {
     display: flex;
     justify-content: space-around;
     height: 100vh;
     align-items: center;
     /* border: 2px solid gray; */
     color: white;
-    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    background-image: url("./images/background.png"), linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.title{
-    font-size:55px;
+.title {
+    font-size: 55px;
     font-weight: bold;
 
 }
-.description{
+
+.description {
     font-size: 18px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
-.btn{
-    padding:10px 20px;
-    background-color:red;
+
+.btn {
+    padding: 10px 20px;
+    background-color: red;
     color: white;
     border: none;
-    
+
 }
 
-.about-container{
+.about-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-direction:row-reverse;
+    flex-direction: row-reverse;
     padding: 10px;
 }
-.about-title{
+
+.about-title {
     text-align: center;
-    padding-top:20px;
+    padding-top: 20px;
 }
-.box{
+
+.box {
     width: 230px;
     height: 280px;
     box-shadow: 4px 4px 15px gray;
@@ -82,22 +91,27 @@
     padding: 15px;
     color: white;
 }
-.icon{
+
+.icon {
     width: 70px;
 }
-.box-btn{
+
+.box-btn {
     background-color: gray;
-    margin-top:10px;
+    margin-top: 10px;
 }
-.box-title{
+
+.box-title {
     padding: 10px;
 
 }
-.box-description{
+
+.box-description {
     padding: 5px;
 }
-.service-container{
+
+.service-container {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     padding: 20px;
 }
